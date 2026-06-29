@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — PicMate</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --accent: #6C63FF;
+      --accent-light: #EEF0FF;
+      --text: #1A1A2E;
+      --muted: #6B7280;
+      --bg: #FAFAFA;
+      --white: #FFFFFF;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: var(--white);
+      border-bottom: 1px solid #EBEBEB;
+      position: sticky;
+      top: 0;
+    }
+    .nav-logo { font-size: 1.25rem; font-weight: 700; color: var(--accent); text-decoration: none; }
+    nav a.link { color: var(--muted); text-decoration: none; font-size: 0.9rem; }
+    nav a.link:hover { color: var(--accent); }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    h1 { font-size: clamp(1.8rem, 5vw, 2.4rem); font-weight: 800; margin-bottom: 8px; }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 40px; }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+    p { color: var(--muted); margin-bottom: 14px; font-size: 0.97rem; }
+    ul { color: var(--muted); margin: 0 0 14px 20px; font-size: 0.97rem; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .card {
+      background: var(--white);
+      border: 1px solid #EBEBEB;
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid #EBEBEB;
+    }
+    footer a { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="index.html">PicMate</a>
+    <a class="link" href="index.html">Home</a>
+  </nav>
+
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 29, 2026</p>
+
+    <div class="card">
+      <p><strong>The short version:</strong> PicMate does not collect, store, or transmit your photos. All image processing happens entirely on your device. We don't have a server, we don't have your photos, and we don't want them.</p>
+    </div>
+
+    <h2>Information We Collect</h2>
+    <p>PicMate does not require an account and does not collect any personally identifiable information.</p>
+    <p>Photos you select within the app are processed locally on your device using Apple's PhotosPicker framework. They are never uploaded to any server operated by us or by any third party, and we never have access to them.</p>
+
+    <h2>Analytics</h2>
+    <p>PicMate uses Firebase Analytics to understand general, anonymized usage patterns (for example, which features are used) so we can improve the app. This data is aggregated and does not include your photos or any content you create within the app. Analytics are disabled in development builds.</p>
+
+    <h2>Crash Reporting</h2>
+    <p>PicMate uses Sentry to receive automatic crash and error reports. These reports help us fix bugs and may include technical diagnostic information (such as device type, OS version, and the state of the app at the time of the crash). They do not include your photos.</p>
+
+    <h2>Photo Library Access</h2>
+    <p>PicMate requests access to your Photos library solely to let you select images to edit and to save the images you create back to your library (either to your Camera Roll or to a "PicMate Exports" album). This access is requested through Apple's standard permission system and is used only for that purpose.</p>
+
+    <h2>Data Sharing</h2>
+    <p>We do not sell, rent, or share your information with third parties for marketing purposes. We do not have advertising SDKs integrated into the app.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>PicMate does not knowingly collect information from children. The app is intended for general use and does not target children under 13.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Changes will be reflected on this page with an updated "Last updated" date.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, you can reach us at <a href="mailto:yevhenii.pylypenko@gmail.com">yevhenii.pylypenko@gmail.com</a>.</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Yevhenii Pylypenko &nbsp;·&nbsp; <a href="index.html">Back to home</a></p>
+  </footer>
+
+</body>
+</html>
